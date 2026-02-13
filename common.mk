@@ -106,6 +106,9 @@ PRODUCT_COPY_FILES += \
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl:64
